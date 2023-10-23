@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ROCK PAPER SCISSORS</title>
+  </head>
+  <body>
+    <form action = "/game" method ="POST">
+    <header>
+      <img src="assets/_.svg" id="tanda" />
+      <img src="assets/logo1.png" id="logo" />
+      <h1>ROCK PAPER SCISSORS</h1>
+    </header>
+
+    <div class="result"><span>PLAYER 1</span><span>COM</span></div>
+    <div class="choice">
+      <img src="assets/batu.png" width="100px" id="batu1" />
+      <span id="batu2"><img src="assets/batu.png" alt="" width="100px" /></span>
+    </div>
+    <div class="choice">
+      <img src="assets/kertas.png" width="100px" id="kertas1" />
+      <span id="vs">VS</span>
+      <span id="kertas2">
+        <img src="assets/kertas.png" alt="" width="100px"
+      /></span>
+    </div>
+    <div class="choice">
+      <img src="assets/gunting.png" width="100px" id="gunting1" />
+      <span id="gunting2">
+        <img src="assets/gunting.png" alt="" width="100px"
+      /></span>
+    </div>
+    <div class="refresh">
+      <div class="ulang" id="ulang">
+        <img src="assets/refresh.png" width="100px" />
+      </div>
+    </div>
+    <script src="trial4.js" charset="UTF-8"></script>
+  </form>
+  </body>
+</html>

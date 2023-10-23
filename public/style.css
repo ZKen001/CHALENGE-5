@@ -1,0 +1,106 @@
+/* Masi codingan TRIAL */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #9c835f;
+}
+/*Top Part */
+header {
+  display: flex;
+  padding: 25px 25px;
+  color: #f9b23d;
+  font-family: "Open Sans", sans-serif;
+}
+header > h1 {
+  padding-top: 15px;
+}
+#tanda {
+  padding-right: 40px;
+}
+#logo {
+  padding-right: 30px;
+}
+/* Done */
+
+/* Bagian Game Dan Hasil */
+
+.result {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 46px;
+}
+.choice {
+  text-align: center;
+  padding-top: 40px;
+  position: relative;
+}
+.choice:hover {
+  cursor: pointer;
+}
+/* BATU GUNTING KERTAS */
+
+/* Bagian Span Dari assets */
+#batu2 {
+  margin-left: 45%;
+}
+#batu2:hover {
+  cursor: default;
+}
+#kertas2 {
+  margin-left: 45%;
+}
+
+#kertas2:hover {
+  cursor: default;
+}
+#gunting2 {
+  margin-left: 45%;
+}
+#gunting2:hover {
+  cursor: default;
+}
+#vs {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 350px;
+  font-size: 144px;
+  color: #bd0000;
+  font-family: "Open Sans", sans-serif;
+}
+#vs:hover {
+  cursor: default;
+}
+/* Done */
+
+/* Refresh Button */
+
+.refresh {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.refresh:hover {
+  cursor: pointer;
+}
+
+.green {
+  border-color: #04aa6d;
+  color: green;
+}
+
+.green:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.img :focus {
+  border: 3px solid #555;
+}
